@@ -1,0 +1,17 @@
+{
+    "eslint": {
+        "env": {
+            "node": true,
+        },
+
+        "globals": {
+            "require": true,
+        },
+
+        "rules": {
+            "no-console": 0,
+            "brace-style": [2, "1tabs"],
+            "fecs-no-require": "off"
+        }
+    }
+}
