@@ -1,6 +1,6 @@
 {
   "name": "akb",
-  "version": "2.0.2-beta-1",
+  "version": "2.0.2-beta-2",
   "main": "./index.js",
   "scripts": {
     "dev": "NODE_ENV=development node test",
