@@ -6,27 +6,19 @@
  - 容易上手
  - 基于Koa2，使用`async`和`await`同步编程的方式开发
  - 完善的错误处理和日志系统
- - 拥有配套的异常统计系统 planck
+ - 修改文件自动重载，无需重启
+ - component 组件系统
 
 
 ## 如何使用
 
-`akb`提供了脚手架工具`akb-cli`
+空的项目在 [akb-demo](https://github.com/searchfe/akb-demo)
 
-
-### 创建`akb-demo`
-
-```javascript
-$ npm install -g akb-cli
-$ akb-cli --help
-$ akb-cli create akb-demo
-```
-
-### 启动
-
-```javascript
+```bash
+$ git clone git@github.com:searchfe/akb-demo.git
 $ cd akb-demo
-$ node index.js
+$ npm install
+$ npm run dev
 ```
 
 启动后访问http://localhost:8849/
