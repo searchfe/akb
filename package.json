@@ -6,6 +6,10 @@
     "dev": "NODE_ENV=development node test",
     "test": "./node_modules/.bin/mocha --colors --require should tests/support/babel tests/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/searchfe/akb.git"
+  },
   "dependencies": {
     "chalk": "^1.1.3",
     "chokidar": "^1.6.1",
